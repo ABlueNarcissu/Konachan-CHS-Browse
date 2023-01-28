@@ -33,7 +33,7 @@ import axios from "axios";
 import { ref, watch } from "vue";
 
 let page = 1;
-let tag = "rating:explicit";
+let tag = "rating:safe";
 let urls = ref([]);
 let index = ref(-1);
 let loadStatus = ref(true);
